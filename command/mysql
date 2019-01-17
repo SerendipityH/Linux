@@ -1,0 +1,10 @@
+mysql安装
+ wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+ rpm -ivh mysql-community-release-el7-5.noarch.rpm
+ yum install mysql-community-server
+启动mysql服务
+service mysqld restart
+初次进入mysql
+mysql -u root
+设置密码
+set password for 'root'@'localhost' =password('root');
