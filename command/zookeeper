@@ -1,1 +1,2 @@
-
+1.安装zookeeper
+wget http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz  
