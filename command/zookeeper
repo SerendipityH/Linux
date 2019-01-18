@@ -1,5 +1,26 @@
 一.安装zookeeper
+
 1.下载
 wget http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz  
+
 2.解压
 tar -xzvf zookeeper-3.4.10.tar.gz
+
+3）.移动到合适的位置
+mv zookeeper-3.4.10 /usr/local
+
+4.拷贝zoo_samle.cfg为zoo.cfg
+cp zoo_sample.cfg zoo.cfg
+
+5.编辑zoo.cfg文件
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=/usr/local/zookeeper-3.4.10/data
+dataLogDir=/usr/local/zookeeper-3.4.10/log
+clientPort=2181
+server.1=172.16.2.31:3888
+
+6.设置环境变量 
+export ZOOKEEPER_INSTALL=/usr/local/zookeeper-3.4.10  
+export PATH=$PATH:$ZOOKEEPER_INSTALL/bin
