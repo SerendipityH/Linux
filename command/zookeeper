@@ -24,3 +24,12 @@ server.1=172.16.2.31:3888
 6.设置环境变量 
 export ZOOKEEPER_INSTALL=/usr/local/zookeeper-3.4.10  
 export PATH=$PATH:$ZOOKEEPER_INSTALL/bin
+
+
+7.启动
+进入bin目录下
+[root@localhost zookeeper-3.4.10]# cd bin
+./zkServer.sh start
+
+8.测试
+./zkCli.sh -server localhost:2181
