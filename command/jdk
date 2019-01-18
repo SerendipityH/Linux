@@ -27,3 +27,22 @@ tar -zxvf jdk-8u201-linux-x64.tar.gz
 
 4.移动位置到合适的位置
 mv jdk1.8.0_201 /usr/local
+
+
+5.配置jdk的环境变量
+
+输入命令添加环境变量：
+
+export JAVA_HOME=/software/jdk1.8.0_111
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
+
+6.把环境变量配置到profile文件里
+
+在 cd /etc 下
+在文件中追加
+
+export JAVA_HOME=/software/jdk1.8.0_111
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
+
