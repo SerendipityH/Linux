@@ -1,0 +1,29 @@
+1.查看虚拟机中原有的jdk
+rpm -qa|grep java
+
+出现：
+java-1.7.0-openjdk-1.7.0.191-2.6.15.5.el7.x86_64
+python-javapackages-3.4.1-11.el7.noarch
+java-1.7.0-openjdk-headless-1.7.0.191-2.6.15.5.el7.x86_64
+java-1.8.0-openjdk-headless-1.8.0.181-7.b13.el7.x86_64
+tzdata-java-2018e-3.el7.noarch
+javapackages-tools-3.4.1-11.el7.noarch
+java-1.8.0-openjdk-1.8.0.181-7.b13.el7.x86_64
+
+
+2.删除原有的jdk
+sudo rpm -e --nodeps java-1.7.0-openjdk-1.7.0.191-2.6.15.5.el7.x86_64
+sudo rpm -e --nodeps python-javapackages-3.4.1-11.el7.noarch
+sudo rpm -e --nodeps java-1.7.0-openjdk-headless-1.7.0.191-2.6.15.5.el7.x86_64
+sudo rpm -e --nodeps java-1.8.0-openjdk-headless-1.8.0.181-7.b13.el7.x86_64
+sudo rpm -e --nodeps tzdata-java-2018e-3.el7.noarch
+sudo rpm -e --nodeps javapackages-tools-3.4.1-11.el7.noarch
+sudo rpm -e --nodeps java-1.8.0-openjdk-1.8.0.181-7.b13.el7.x86_64
+
+
+3.安装jdk
+从官网下载jdk
+tar -zxvf jdk-8u201-linux-x64.tar.gz 
+
+4.移动位置到合适的位置
+mv jdk1.8.0_201 /usr/local
