@@ -1,0 +1,14 @@
+1.从官网下载tomcat
+http://tomcat.apache.org/
+
+2.解压
+tar -zxvf apache-tomcat-8.5.37.tar.gz
+
+
+3）.移动到合适位置
+mv apache-tomcat-8.5.37 /usr/local
+
+4.测试tomcat
+
+进入bin目录tomcat./startup.sh
+
