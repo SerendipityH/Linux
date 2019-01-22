@@ -7,3 +7,11 @@ tar -zxvf dubbo-master.tar.gz
 3.打包生成war包
 cd dubbo-master
 mvn install -DskipTests
+
+
+
+
+
+
+问题：
+现在git上已经没有dubbo-admin 需要切换下分支，嘤嘤嘤
