@@ -1,0 +1,27 @@
+1.下载
+http://maven.apache.org
+
+2.解压安装
+tar -zxvf apache-maven-3.6.0.tar.gz
+
+3）.移动合适位置
+mv apache-maven-3.6.0 /usr/local
+
+4.配置maven环境
+vim etc/profile
+export MAVEN_HOME=/usr/local/apache-maven-3.6.0
+export PATH=${PATH}:${MAVEN_HOME}/bin
+
+5.测试maven是否安装成功
+mvn -v
+
+
+
+
+出现问题：
+bash: /usr/local/apache-maven-3.6.0/bin/mvn: 权限不够
+
+解决：
+设置权限
+
+执行：chmod a+x /usr/local/maven/apache-maven-3.5.4/bin/mvn
