@@ -1,0 +1,17 @@
+1.查看虚拟机ip
+ip addr
+
+2.防火墙
+永久性
+
+开启：chkconfig iptables on
+
+关闭：chkconfig iptables off
+
+重启后失效
+
+开启：service iptables start
+
+关闭：service iptables stop
+
+
