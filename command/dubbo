@@ -1,2 +1,9 @@
 1.从官网下载源码
 https://github.com/alibaba/dubbo 
+
+2.解压
+tar -zxvf dubbo-master.tar.gz
+
+3.打包生成war包
+cd dubbo-master
+mvn install -DskipTests
