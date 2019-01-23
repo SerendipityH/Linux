@@ -7,6 +7,21 @@ tar -zxvf dubbo-master.tar.gz
 3.打包生成war包
 cd dubbo-master
 mvn install -DskipTests
+然后(这边要确保maven安装了)
+cd dubbo-admin
+mvn package -Dmaven.skip.test=true
+
+接下来ls看一下发现有
+dubbo-admin-2.5.10.war
+
+4.复制到Tomcat的webapps目录下
+cp dubbo-admin-2.5.10.war /usr/local/apache-tomcat-8.5.37/webapps
+
+5.进入解压war包
+jar -xvf dubbo-admin-2.5.10.war
+
+
+
 
 
 
