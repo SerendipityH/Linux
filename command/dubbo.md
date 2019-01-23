@@ -14,14 +14,20 @@ mvn package -Dmaven.skip.test=true
 接下来ls看一下发现有
 dubbo-admin-2.5.10.war
 
+
+
 4.复制到Tomcat的webapps目录下
 cp dubbo-admin-2.5.10.war /usr/local/apache-tomcat-8.5.37/webapps
+
+
 
 5.进入解压war包
 jar -xvf dubbo-admin-2.5.10.war
 
 
-![image](https://github.com/SerendipityH/Linux/blob/master/command/photo/dubbo.jpg)
+
+访问下还可以
+![image](https://github.com/SerendipityH/Linux/blob/master/command/photo/window-dubbo.jpg)(之前都没有传图片，好气啊)
 
 
 
