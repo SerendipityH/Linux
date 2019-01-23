@@ -21,7 +21,7 @@ cp dubbo-admin-2.5.10.war /usr/local/apache-tomcat-8.5.37/webapps
 jar -xvf dubbo-admin-2.5.10.war
 
 
-![image]{https://github.com/SerendipityH/Linux/blob/master/command/photo/dubbo.jpg}
+![image](https://github.com/SerendipityH/Linux/blob/master/command/photo/dubbo.jpg)
 
 
 
