@@ -34,7 +34,7 @@ mv jdk1.8.0_201 /usr/local
 输入命令添加环境变量：
 
 vim etc/profile
-export JAVA_HOME=/us/local/jdk1.8.0_201
+export JAVA_HOME=/usr/local/jdk1.8.0_201
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$JAVA_HOME/bin:$PATH
 
