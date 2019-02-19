@@ -1,7 +1,7 @@
 一.安装zookeeper
 
 1.下载
-wget http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz  
+wget http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.10/zookeeper-3.4.11.tar.gz  
 
 2.解压
 tar -xzvf zookeeper-3.4.10.tar.gz
