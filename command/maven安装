@@ -1,6 +1,10 @@
 1.下载
 http://maven.apache.org
 
+or
+
+http://mirrors.hust.edu.cn/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+
 2.解压安装
 tar -zxvf apache-maven-3.6.0.tar.gz
 
