@@ -12,7 +12,7 @@ tar -zxvf apache-maven-3.6.0.tar.gz
 mv apache-maven-3.6.0 /usr/local
 
 4.配置maven环境
-vim etc/profile
+vim /etc/profile
 export MAVEN_HOME=/usr/local/apache-maven-3.6.0
 export PATH=${PATH}:${MAVEN_HOME}/bin
 
